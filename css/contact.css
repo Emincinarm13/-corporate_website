@@ -53,3 +53,12 @@ body{
   
     
  }
+
+  
+.div1{
+    background-color: gray;
+    border-right:  60px solid transparent; 
+}
+.div2{
+    background-color: #ffcc00;
+}
