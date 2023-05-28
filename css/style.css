@@ -1,0 +1,26 @@
+body {
+    height: 755px;
+    background-image: url("../img/resim6.jpeg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 100% 100%;
+
+}
+
+.main {
+    font-family: "MV Boli";
+    color: #ffcc00;
+}
+
+.link {
+    font-family: "MV Boli";
+}
+
+.link:not(.active) {
+    color: #ffcc00;
+}
+
+.link:not(.active):hover {
+    color: black;
+}
