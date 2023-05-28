@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(gray,#ffcc00,gray) ;
+    font-family: MV BOLI;
+ }
+ .link{
+     font-family: "MV Boli";
+ }
+ 
+ .link:not(.active){
+     color: #ffcc00;
+ }
+ .link:not(.active):hover{
+     color: black;
+ }
+ html{
+     height: 100%;
+ }
+ .active{
+     color: black;
+ }
+ 
+ .dropdown{
+     display: none;
+     background-color: #ffcc00;
+     width: 80px;
+     border-radius: 30px;
+     transition: 0.5s;
+ 
+     
+ }
+ .dropdown-menu{
+     background-color: gray;
+     transition: 0.5s;
+     
+ }
+ 
+ @media screen and (max-width:780px) {
+     .navbar{
+         display: none;
+     }
+     .dropdown{
+         display:block;
+     }
+     .textarea{
+        width: 200px;
+     }
+     .email{
+        width: 200px;
+     }
+     .main{
+        height: auto;
+    }
+  
+    
+ }
