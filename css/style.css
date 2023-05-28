@@ -24,3 +24,53 @@ body {
 .link:not(.active):hover {
     color: black;
 }
+
+.textarea {
+    background: none;
+    border: 2px solid #ffcc00;
+}
+
+.email {
+    background: none;
+    border: 2px solid #ffcc00;
+
+
+}
+
+html {
+    height: 100%;
+}
+
+.active {
+    color: black;
+}
+
+.dropdown {
+    display: none;
+    background-color: #ffcc00;
+    width: 80px;
+    border-radius: 30px;
+
+}
+
+.dropdown-menu {
+    background-color: gray;
+}
+
+.info {
+    height: 300px;
+}
+@media screen and (max-width:780px) {
+    .navbar {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .info {
+        height: 0;
+    }
+  
+}
