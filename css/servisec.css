@@ -60,3 +60,26 @@ body{
      font-family: MV Boli;
  
  }
+ .myCard{
+    width: auto;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    background-color:gray ;
+    border-radius: 10px;
+    padding: 30px;
+} 
+.img{
+    
+    border-radius: 50%;
+   
+}
+
+h4{
+    margin-top: 5px;
+    text-align: center;
+    color:#ffcc00;
+}
+p{
+    color: white;
+}
